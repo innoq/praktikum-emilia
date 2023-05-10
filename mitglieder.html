@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jujuzu lernen in einem Monat - Übersicht</title>
+    <style>
+      .flex {
+        display: flex; place-items: flex-start;
+      }
+      /* Stil für das Layout */
+      main {
+        margin: 0 auto;
+        max-width: 800px;
+        border: 1px solid #111212;
+        padding:30px;
+        min-width: 900px;
+      }
+
+      header {
+        margin-bottom: 100px;
+        text-align: center;
+      }
+
+
+      img {
+        margin: 0 10px;
+      }
+      
+      /* Stil für den Button-Link */
+      .button {
+        display: inline-block;
+        padding: 17px 60px;
+        background-color: #f5e8f0;
+        color: #0a0909;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-bottom:60px ;
+        border: 1px solid #111212;
+        
+      }
+      
+      .ueberschrift{
+       text-decoration: underline;
+       white-space: nowrap;
+
+      }
+
+      .button:hover {
+        background-color: rgb(206, 198, 236);
+      }
+
+      img {
+        float: left;
+        margin-right: 10px; /* Fügt rechts einen Abstand hinzu, damit der Text um das Bild fließt */
+      }
+      .mitglied{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+      }
+      .mitglied-box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      .navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .navigation>a{
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+    
+      <header>
+        <a href="uebersicht.html" class="pfeil">☚</a>
+          <h1 class="ueberschrift">Mitglieder</h1>
+        
+        
+
+      <nav class="navigation">
+
+        <h2 class="ueberschrift">Vorschläge</h2>
+        <a href="mitglieder2.html">Einfache Mitglieder</a>
+        <a href="mitglieder3.html">Schwere Mitglieder</a>
+
+      </nav>
+
+      
+    </header>
+
+      <article class="mitglied">
+        <div class="mitglied-box">
+          
+            <img src="img/bild12.jpg" width="150px" alt="">
+          
+          <div >
+            <h3>Tom, 15</h3>
+            <p style="width: 200px">ich trainiere 3 mal in der woche und habe schon bei 3 Kämpfen teilgenommen. Ich wiege 62kg und bin 1,78 groß.</p>
+          </div>
+        </div>
+        <div>
+          <button>Wählen: Stark</button>
+        </div>
+       </article>
+
+       <article class="mitglied">
+        <div class="mitglied-box">
+          
+            <img src="img/Web_ReifeMädchen.jpg" width="150px" alt="">
+          
+          <div >
+            <h3>Lea,13</h3>
+            <p style="width: 200px">ich habe noch nie bei einem Kampf teilgenommen ,mach das aber schon seid einem jahr. Ich wiege 46 kg und bin 1,60 groß.</p>
+          </div>
+        </div>
+        <div>
+          <button>Wählen: normal</button>
+        </div>
+       </article>
+
+       <article class="mitglied">
+        <div class="mitglied-box">
+          
+            <img src="img/bild13.jpeg" width="150px" alt="">
+          
+          <div >
+            <h3>Marcos,14</h3>
+            <p style="width: 200px">ich bin noch nicht sehr lange beim Jujuzu und habe auch noch keinen Gürtel. Ich wiege 57kg und bin 1,73 groß.</p>
+          </div>
+        </div>
+        <div>
+          <button>Wählen: Anfänger</button>
+        </div>
+       </article>
+
+       <article class="mitglied">
+        <div class="mitglied-box">
+          
+            <img src="img/bild11.jpg" width="150px" alt="">
+          
+          <div >
+            <h3>Lilly,11</h3>
+            <p style="width: 200px">ich mach jujuzu seid 2 Jahren und habe schon den ersten Gürtel geschafft. ich wiege 40kg und bin 1,54 groß.</p>
+          </div>
+        </div>
+        <div>
+          <button>Wählen: normal</button>
+        </div>
+       </article>
+      
+      <div style="clear:both"></div>
+    </main>
+    <!--
+    <div id="app"></div>
+    -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jujuzu lernen in einem Monat - Übersicht</title>
+    <style>
+      .flex {
+        display: flex; place-items: flex-start;
+      }
+      /* Stil für das Layout */
+      main {
+        margin: 0 auto;
+        max-width: 800px;
+        border: 1px solid #111212;
+        padding:30px;
+      }
+
+      header {
+        margin-bottom: 100px;
+        text-align: center;
+      }
+
+
+      img {
+        margin: 0 10px;
+      }
+      
+      /* Stil für den Button-Link */
+      .button {
+        display: inline-block;
+        padding: 17px 60px;
+        background-color: #f5e8f0;
+        color: #0a0909;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-bottom:60px ;
+        border: 1px solid #111212;
+        
+      }
+      
+      .button:hover {
+        background-color: rgb(206, 198, 236);
+      }
+
+      img {
+        float: left;
+        margin-right: 10px; /* Fügt rechts einen Abstand hinzu, damit der Text um das Bild fließt */
+      }
+      #rechts{
+        float:right;
+        margin-top:190px ;
+    
+      }
+      #links{
+        margin-top:200px ;
+      }
+      .pfeil{
+        margin-right: 800px;
+        font-size: 30px;
+      
+      }
+      .pfeil:hover {
+        background-color: rgb(206, 198, 236);
+      }
+      
+      .ueberschrift{
+       text-decoration: underline;
+      }
+      .uebungen{
+        background-color: rgb(218, 206, 213);
+        padding: 4px 80px;
+        width: 400px;
+        margin-left: 40px;
+      }
+      .video{
+        width: 350px;
+        height: 200px;
+        margin-left: 80px;
+      }
+      .mittig{
+        text-align: center;
+        margin-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+    
+      <header>
+        <a href="ubungen.html" class="pfeil">☚</a>
+          <h1 class="ueberschrift">Falltechnik</h1>
+        
+        
+      </header>
+      
+      <article>
+        <div class="flex">
+          <a  href="uebersicht.html" class="button">sturz seitwärts</a>
+          <iframe class="video" src="https://www.youtube.com/embed/RCPJPFWQplY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+         <div class="mittig">
+          <p>beschreibung</p>
+          <p>Nach dem Abschlagen wird der Kopf zur Seite abgewinkelt, die Beine in richtung Kopf gehoben und die Fallenergie mit dem druck des Abschlagarmes vomBoden zum direkten Aufstehen genutzt. </p>
+         </div>
+         <img src="img/bild4.jpg" width="250" height="150" class="schaubild">
+       </article>
+      
+      <div style="clear:both"></div>
+    </main>
+    <!--
+    <div id="app"></div>
+    -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

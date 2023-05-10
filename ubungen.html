@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jujuzu lernen in einem Monat - Übersicht</title>
+    <style>
+      .flex {
+        display: flex; place-items: flex-start;
+      }
+      /* Stil für das Layout */
+      main {
+        margin: 0 auto;
+        max-width: 800px;
+        border: 1px solid #111212;
+        padding:30px;
+      }
+
+      header {
+        margin-bottom: 100px;
+      }
+
+      img {
+        margin: 0 10px;
+      }
+      
+      /* Stil für den Button-Link */
+      .button {
+        display: inline-block;
+        padding: 17px 60px;
+        background-color: #f5e8f0;
+        color: #0a0909;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-bottom:60px ;
+        border: 1px solid #111212;
+        
+      }
+      
+      .button:hover {
+        background-color: rgb(206, 198, 236);
+      }
+
+      img {
+        float: left;
+        margin-right: 10px; /* Fügt rechts einen Abstand hinzu, damit der Text um das Bild fließt */
+      }
+      #rechts{
+        float:right;
+        margin-top:190px ;
+    
+      }
+      #links{
+        margin-top:200px ;
+      }
+      .pfeil{
+        font-size: 30px;
+        margin-left: 80px;
+      
+      }
+
+      .pfeil:hover {
+        background-color: rgb(206, 198, 236);
+      }
+      .ueberschrift{
+        background-color: rgb(240, 218, 233);
+        float: left;
+      }
+      .uebungen{
+        background-color: rgb(218, 206, 213);
+        padding: 4px 80px;
+        width: 400px;
+        margin-left: 40px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <main>
+    
+      <header>
+        
+          <h1 class="ueberschrift">Übungen</h1>
+          <a href="uebersicht.html" class="pfeil">☚</a>
+        
+        
+      </header>
+
+      <article>
+        <div class="flex">
+          <a  href="falltechniken.html" class="button">Falltechniken</a>
+          <ol class="uebungen">
+            <li>Sturz seitwärts</li>
+          </ol>
+        </div>
+        <div class="flex">
+          <a  href="bodentechnik.html" class="button">Bodentechnik</a>
+          <ol class="uebungen">
+            <li>Haltetechnik in seitlicher Position, Haltetechnik in Keuzposition</li>
+          </ol>
+        </div>
+        <div class="flex">
+          <a  href="atemitechnik.html" class="button">Atemitechniken</a>
+          <ol class="uebungen">
+            <li>Handballentechnik,Knietechnik,Hammerfaustschlag</li>
+          </ol>
+        </div>
+        <div class="flex">
+          <a  href="Hebeltechnik.html" class="button">Hebeltechnik</a>
+          <ol class="uebungen">
+            <li>Armebel im stand(zum boden,am Boden)Seitstreckhebel</li>
+          </ol>
+        </div>
+        <div class="flex">
+          <a  href="wurftechnik.html" class="button">Wurftechniken</a>
+          <ol class="uebungen">
+            <li>Beinstellen</li>
+          </ol>
+        </div>
+      </article>
+      
+      <div style="clear:both"></div>
+    </main>
+    <!--
+    <div id="app"></div>
+    -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
